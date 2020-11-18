@@ -1,8 +1,10 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: monospace;
+  color: black;
   margin: 2em;
+  background-color: beige;
 }
 
 h1 {
@@ -16,10 +18,30 @@ h2 {
 }
 
 table, th, td {
-  border: 1px solid Black;
+  border: 1px solid black;
   border-collapse: collapse;
 }
 th, td {
   padding: 5px;
   text-align: left;    
 }
+
+.sis {
+  padding: 5px;
+  border: 3px solid black;
+  text-decoration: none;
+  margin: 8px;
+  color : purple;
+}
+
+.puppy:hover {
+  background-color: khaki;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+
