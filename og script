@@ -15,7 +15,6 @@
   </head>  
   <body>
     <h1>Hi there!</h1>
-    
     <p>
       I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
     </p>
@@ -26,3 +25,32 @@
     <script src="https://button.glitch.me/button.js" defer></script>
   </body>
 </html>
+
+
+
+
+
+
+    <table style="width:100%">
+  <tr>
+    <th> About:</th>
+    <td>Go to the <a href="/about.html">about</a> page to learn more about Robert Delunay Himself!</td>
+  </tr>
+  <tr>
+    <th> Artworks: </th>
+    <td>Learn More About Robert's <a href="artworks.html">Artworks</a></td>
+  </tr>
+  <tr>
+    <th> Events: </th>
+    <td> Find out all of Robert's <a href="events.html">Artworks Location Being Displayed Aorund The World</a></td>
+  </tr>
+  <tr>
+    <th>Discussion Forums:</th>
+    <td> Want to <a href="forums.html"> discuss about</a> His Artworks Or Events?</td>
+  </tr>
+  <tr>
+    <th>Help:</th>
+    <td> Need Some <a href="help.html">Help</a> Regarding Artworks Or Events?</td>
+  </tr>
+</table>
+    
