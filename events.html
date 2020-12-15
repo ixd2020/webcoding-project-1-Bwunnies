@@ -14,6 +14,18 @@
     <script src="/script.js" defer></script>
   </head>  
   <body>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        $("h1,h2,h3").addClass("blue");
+      });
+    });
+      </script>     
+      
+<button>click me to make your page colourful!</button>
 
     <h1>Events</h1>
     
@@ -27,7 +39,7 @@
     </p>
     
   <ul style="list-style-type:square">
-  <li>Europe</li>
+    <li><h3>Europe</h3></li>
     <p>
     <ul style="list-style-type:circle">
 
@@ -46,7 +58,7 @@
       </ul>
     </p>
     
-  <li>United States</li>
+    <li><h3>United States</h3></li>
     <p>
       <ul style="list-style-type:circle">
       <li>The Albright-Knox Art Gallery (Buffalo, New York)</li>
@@ -67,7 +79,7 @@
     </ul>
     </p>
   
-  <li>The Rest Of The World</li>
+  <li><h3>The Rest Of The World</h3></li>
   <p>
     <ul style="list-style-type:circle">
     <li>The National Gallery of Victoria (Australia)</li>

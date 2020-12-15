@@ -9,12 +9,12 @@ body {
 
 h1 {
   font-style: italic;
-  color: #6E80B2;
+  #color: #6E80B2;#
 }
 
 h2 {
   font-style: italic;
-  color: #6E80B2;
+  #color: #6E80B2;
 }
 
 table, th, td {
@@ -45,7 +45,8 @@ th, td {
 
 
 .puppy:hover {
-  background-color: khaki;
+  background-color: black;
+  font-colour: white;
 }
 
 
@@ -77,10 +78,50 @@ p.round2 {
   border-radius: 10px;
   height: 260px;
   width: 200px;
+  background-image: url("https://cdn.glitch.com/dbcb9651-11ff-4c49-8018-e365f47cf4cf%2FScreenshot%202020-11-06%20132022.jpg?v=1604640066768");
+}
+
+p.round3 {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 260px;
+  width: 200px;
   background-image: url("https://cdn.glitch.com/dbcb9651-11ff-4c49-8018-e365f47cf4cf%2Fschhh.jpg?v=1606887847187");
 }
+
+
+p.round4 {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 260px;
+  width: 1215px;
+  background-image: url("https://cdn.glitch.com/dbcb9651-11ff-4c49-8018-e365f47cf4cf%2FScreenshot%202020-12-15%20230734.jpg?v=1608044864815");
+}
+
 
 
 p.right {
   float: right;
 }
+
+
+.blue {
+  color: #6E80B2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
