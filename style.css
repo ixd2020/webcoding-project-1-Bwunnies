@@ -79,3 +79,8 @@ p.round2 {
   width: 200px;
   background-image: url("https://cdn.glitch.com/dbcb9651-11ff-4c49-8018-e365f47cf4cf%2Fschhh.jpg?v=1606887847187");
 }
+
+
+p.right {
+  float: right;
+}
