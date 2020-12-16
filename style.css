@@ -118,20 +118,37 @@ p.right {
   width:100%;
 }
 
-.white {
-    color: #FFFFFF;
-}
 
 .fa{
   color: #FFFFFF;
+}
+  p.rights {
+    float: right;
+    width: 380px;
+    margin-left: 20px; 
+    margin-bottom:5px;
+  }
+
+
+  div.lefts {
+    float:left
+  }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 
+* {
+  box-sizing: border-box;
+}
 
-
-
-
-
-
-
+.img-container {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
 
