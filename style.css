@@ -45,7 +45,7 @@ th, td {
 
 
 .puppy:hover {
-  background-color: black;
+  background-color: brown;
   font-colour: white;
 }
 
@@ -110,10 +110,20 @@ p.right {
 }
 
 
+.footer {
+  padding: 64px;
+  text-align: center;
+  background-color: #6E80B2;
+  color:#FFFFFF;
+  width:100%;
+}
 
+.white {
+    color: #FFFFFF;
+}
 
-
-
+.fa{
+  color: #FFFFFF;
 
 
 
